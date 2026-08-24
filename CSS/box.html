@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model-Css</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(193, 231, 219);
+        }
+        .container{
+            background-color: aquamarine;
+            border: 3px solid navy;
+            /* we can set margin/paddding for top, bottom , left , right like this
+            padding-top: 79px;
+            padding-bottom: 79px;
+            padding-right: 79px; */
+            /* padding: 23px 56px 6px 78px;  padding : top right bottom left; */
+            padding: 34px 19px; /* padding: y(top,bottom) x(let,right); */
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed voluptatem, eveniet veritatis officia optio maxime atque magni blanditiis quas deleniti libero illum!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed voluptatem, eveniet veritatis officia optio maxime atque magni blanditiis quas deleniti libero illum!</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed voluptatem, eveniet veritatis officia optio maxime atque magni blanditiis quas deleniti libero illum!</p>
+    </div>
+</body>
+</html>
