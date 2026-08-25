@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box & Text Shadow-CSS</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid black; */
+            background-color: burlywood;
+            /* box-shadow: offset-X offset-Y blur-radius spread-radius color; */
+            /* box-shadow: 10px 13px 10px 2px brown; */
+            /* box-shadow: -10px -13px 10px brown; */
+            /* box-shadow: inset 3px 5px greenyellow; */
+             box-shadow:3px 5px greenyellow,  5px 5px brown;
+        }
+        .card h2{
+            text-shadow: 3px 2px 2px rgb(59, 56, 56,0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ Course</h2>
+            <p>I have started c++ course Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita voluptatem cum eius velit asperiores possimus inventore, neque magni labore, eligendi quia, minima ullam. Totam deleniti ratione illum sunt harum vitae deserunt aspernatur optio!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dignissimos pariatur deleniti amet odit quia architecto vero, suscipit nisi ipsa tempore porro repudiandae? Aliquid repellat facere ipsum debitis, distinctio minus hic cum. Ratione, nihil.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolores vel porro nulla quis quasi facere possimus cupiditate nobis, natus repudiandae facilis dolore repellat provident aliquam odit! Porro totam eligendi cumque natus? Quasi, assumenda.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
